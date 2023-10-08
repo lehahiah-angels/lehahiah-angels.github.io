@@ -1,0 +1,36 @@
+@media screen and (max-width:1024px){
+    .promotions {
+        width: 100vw;
+        height: 200vh;
+        max-width: auto;
+        max-height: auto;
+        background-color: #694d45;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+}
+@media screen and (max-width:900px) {
+    .menu-hamburger {
+        font-size: 60px;
+        padding-right: 1px;
+    }
+    #logo a {
+        font-size: 30px;
+        padding-left: 1px;
+    }
+    .header-txt .button {
+        font-size: 10px;
+        display: none;
+    }
+}
+@media screen and (max-width:768px) {}
+@media screen and (max-width:425px) {}
+
+
+
+
+
+
+
+

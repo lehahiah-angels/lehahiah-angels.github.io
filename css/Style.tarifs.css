@@ -1,0 +1,225 @@
+/*!
+=================================================================================================================================
+     *FONT
+=================================================================================================================================
+*/
+@font-face {
+    font-family: 'Afterglow';
+    src: url('Afterglow-Regular.woff2') format('woff2'),
+        url('Afterglow-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: "Catalish Huntera";
+    src:
+      url("../Font/Catalish\ Huntera.woff2") format("woff2") ,
+      url("../Font/Catalish\ Huntera.woff") format("woff") ;
+        font-weight: normal;
+        font-style: normal;
+    }
+
+@font-face {
+    font-family: "Million Harmony";
+    src: url("/Police d'écriture/Million Harmony.otf") format("opentype");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+/*!
+=================================================================================================================================
+     *GENERAL
+=================================================================================================================================
+*/
+* {
+    border: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    color: black;
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #694d45;
+
+}
+/*!
+=================================================================================================================================
+     *HEADER
+=================================================================================================================================
+*/
+header {
+    background-color:aliceblue;
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    max-height: 100%;
+    background-image: url(../images/z4.jpg);
+    background-size: cover;
+    background-position:center ;
+    position: relative;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.664);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 50%;
+}
+
+nav.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    background-color: #f1dec933;
+    position: fixed;
+    z-index: 9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+
+.scroll {
+    background-color: #694d45;
+    transition: all 0.3s ease;
+}
+
+#logo a {
+    font-size: 30px;
+    font-family: Catalish Huntera;
+    color:#ddbf9c;
+    font-weight: lighter;
+    padding-left: 30px;
+}
+
+#logo span {
+    color:white;
+    cursor: pointer;
+}
+
+.menu-hamburger {
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    padding-right: 30px;
+
+}
+
+.fa-regular {
+    color: #F1DEC9;
+    font-size: 30px;
+}
+
+.header-txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    color: #F1DEC9;
+    font-size: 9vw;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-family: Catalish Huntera;
+}
+
+.title span {
+    color: white;
+}
+
+.header-txt .button {
+    display: flex;
+    margin: auto;
+    padding: 8px 25px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.2s ease-out;
+    border: 1px solid #F1DEC9;
+    background-color:#ddbf9c;
+    color:white;
+    border-radius: 5px;
+}
+
+.header-txt .button:hover {
+    background-color: #4733168c;
+    color:white;
+}
+
+/*!
+=================================================================================================================================
+     *PROMOTE
+=================================================================================================================================
+*/
+.Promote {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.promote-box{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    margin-top: auto;
+}
+
+.box{
+    height:100px ;
+    width:100px ;
+    padding-top: 10px;
+    background-color:#694d45;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    align-content: flex-start;
+}
+
+img{
+    display: flex;
+    width: 90px;
+    height: 50px;
+}
+
+.box-txt {
+    display: flex;
+    padding-top: 10px;
+    font-size: 10px;
+    text-align: center;
+    color: #ddbf9c;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+

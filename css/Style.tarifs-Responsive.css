@@ -1,0 +1,68 @@
+@media screen and (max-width:1024px){}
+@media screen and (max-width:900px) {
+/*!
+==========================================================
+     *HEADER
+==========================================================
+*/
+    header {
+        height: 80vh;
+        background-image: url(../images/za-2.jpg);
+    }
+
+    #logo a {
+        font-size: 17px;
+        padding-left: 10px;
+    }
+    .menu-hamburger {
+        font-size: 20px;
+        padding-right: 10px;
+    
+    }
+    .header-txt .button {
+        margin-top: 15px;
+        padding: 5px 20px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    /*!
+    =================================================================================================================================
+        *PROMOTE
+    =================================================================================================================================
+    */
+    .Promote {
+        height: 20vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .promote-box{
+        width: 95%;
+    }
+
+    img{
+        width: 50px;
+        height: 40px;
+    }
+
+    .box-txt {
+        font-size: 8px;
+    }
+}
+@media screen and (max-width:425px) {}
+@media screen and (min-height:3080px) {
+    header {
+        height: 70vh;
+        background-image: url(../images/za-2.jpg);
+    }
+}
+
+
+
+
+
+
+
