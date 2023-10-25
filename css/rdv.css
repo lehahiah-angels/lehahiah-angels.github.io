@@ -4,14 +4,31 @@
 =================================================================================================================================
 */
 @font-face {
-    font-family: "Catalish Huntera";
-    src: url("/Police\ d\'écriture/catalish-huntera.ttf") format("truetype");
+    font-family: 'Afterglow';
+    src: url('Afterglow-Regular.woff2') format('woff2'),
+        url('Afterglow-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
+
+
+
+@font-face {
+    font-family: "Catalish Huntera";
+    src:
+      url("../Font/Catalish\ Huntera.woff2") format("woff2") ,
+      url("../Font/Catalish\ Huntera.woff") format("woff") ;
+        font-weight: normal;
+        font-style: normal;
+    }
 
 @font-face {
     font-family: "Million Harmony";
-    src: url("/Police\ d\'écriture/Million Harmony.otf") format("opentype");
+    src: url("/Police d'écriture/Million Harmony.otf") format("opentype");
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 /*!
 =================================================================================================================================
