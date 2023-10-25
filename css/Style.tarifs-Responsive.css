@@ -78,18 +78,32 @@
 }
 
 @media screen and (max-width:768px) {
+
+    #logo a {
+        font-size: 23px;
+        padding-left: 40px;
+    }
+
+    .menu-hamburger {
+        font-size: 33px;
+        padding-right: 40px;
+    }
     /*!
-    =================================================================================================================================
+    =========================================================
         *PROMOTE
-    =================================================================================================================================
+    =========================================================
     */
     .Promote {
-        height: 10vh;
+        height: 14vh;
         width: 100%;
         display: flex;
         justify-content: center;
     }
 
+    .promotions-txt h1 {
+        font-size: 30px;
+ }
+    
     .promote-box{
         width: 95%;
     }
@@ -99,8 +113,14 @@
         height: 40px;
     }
 
+    .box{
+        height:100px ;
+        width:100px ;
+    }
+
     .box-txt {
-        font-size: 8px;
+        padding-top: 0;
+        font-size: 10px;
     }
 
     .wrapper .carousel {

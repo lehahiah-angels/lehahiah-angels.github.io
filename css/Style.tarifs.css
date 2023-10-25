@@ -102,7 +102,7 @@ nav.nav-bar {
     width: 100%;
     height: 60px;
     background-color: #f1dec933;
-   /* position: fixed;*/
+    position: fixed;
     z-index: 9;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: lighter;
@@ -205,17 +205,19 @@ nav.nav-bar {
     height:150px ;
     width:150px ;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
-    display: flex;
-    align-content: flex-start;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    gap: 5px;
 }
 
 img{
     display: flex;
     width: 110px;
-    height: 70px;
+    height: 70px;    
 }
 
 .box-txt {
@@ -223,8 +225,10 @@ img{
     padding-top: 10px;
     font-size: 10px;
     text-align: center;
-    color: #ddbf9c;
+    color:#F1DEC9;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+
 }
 
 
@@ -257,7 +261,7 @@ img{
 }
 
 .promotions-txt h1 {
-    padding-top: 25px;
+    padding: 25px 0;
     font-size: 40px;
     color: #694d45;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -267,6 +271,7 @@ img{
     max-width: 1100px;
     width: 100%;
     position: relative;
+    padding: 0  0 30px 0;
     margin: auto;
 }
 
