@@ -9,8 +9,10 @@
         flex-wrap: wrap;
         margin: auto;
     }
+
 }
 @media screen and (max-width:900px) {
+
     .menu-hamburger {
         font-size: 60px;
         padding-right: 1px;

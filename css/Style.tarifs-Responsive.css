@@ -1,12 +1,59 @@
-@media screen and (max-width:1024px){}
-@media screen and (max-width:900px) {
-/*!
-==========================================================
-     *HEADER
-==========================================================
-*/
+@media (orientation: portrait) {
+    /*!
+    ==========================================================
+        *HEADER
+    ==========================================================
+    */
     header {
-        height: 80vh;
+      height: 50vh;
+    }
+   /*!
+    ==========================================================
+        *PROMOTE
+    ==========================================================
+    */
+    .Promote {
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+     /*!
+    ==========================================================
+        *PROMOTIONS
+    ==========================================================
+    */
+
+    .promotions {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 35px;
+        align-items: center;
+        justify-content: center;
+        min-height: 30vh;
+        background-color: #F1DEC9;
+        flex-wrap: wrap;
+    }
+  }
+
+
+@media screen and (max-width:1024px){
+    /*!
+    ==========================================================
+        *HEADER
+    ==========================================================
+    */
+
+}
+@media screen and (max-width:900px) {
+    /*!
+    ==========================================================
+        *HEADER
+    ==========================================================
+    */
+    header {
+        height: 50vh;
         background-image: url(../images/za-2.jpg);
     }
 
@@ -24,6 +71,10 @@
         padding: 5px 20px;
         font-size: 15px;
     }
+
+    .wrapper .carousel {
+        grid-auto-columns: calc((100% / 2) - 12px);
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -33,7 +84,7 @@
     =================================================================================================================================
     */
     .Promote {
-        height: 20vh;
+        height: 10vh;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -51,6 +102,11 @@
     .box-txt {
         font-size: 8px;
     }
+
+    .wrapper .carousel {
+        grid-auto-columns: calc((100% / 1) - 12px);
+    }
+    
 }
 @media screen and (max-width:425px) {}
 @media screen and (min-height:3080px) {
