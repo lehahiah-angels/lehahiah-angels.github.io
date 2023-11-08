@@ -1,3 +1,30 @@
+@media   (orientation:portrait ) {
+  /*!=======*HEADER========*/
+    .header {
+        height: 60vh;
+      }
+
+    .a-propos {
+        height: 40vh;
+        width: 100vw;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .propos-img {
+        width: 400px;
+        height: 200px;
+        position: relative;
+    }
+    
+    .propos-img img {
+        width: 100%;
+        height: 20vh;
+        position:absolute;
+    }
+
+}
+
 @media screen and (max-width:1024px){
     .promotions {
         width: 100vw;
@@ -10,23 +37,92 @@
         margin: auto;
     }
 
+    .propos-img {
+        width: 400px;
+        height: 200px;
+        position: relative;
+    }
+    
+    .propos-img img {
+        width: 100%;
+        height: 40vh;
+        position:absolute;
+    }
+
 }
 @media screen and (max-width:900px) {
+    /*!=======*HEADER========*/
+    .header {
+        background-color: aliceblue;
+        height: 60vh;
+    }
+}
+@media screen and (max-width:768px) {
+    /*!=======*HEADER========*/
+    .header {
+        background-color: aliceblue;
+        height: 40vh;
+    }
 
-    .menu-hamburger {
-        font-size: 60px;
-        padding-right: 1px;
-    }
     #logo a {
-        font-size: 30px;
-        padding-left: 1px;
+        font-size: 20px;
+        padding-left: 20px;
     }
-    .header-txt .button {
-        font-size: 10px;
+
+    .galerie{
+        display: none;
+    }
+
+    i.menu-hamburger {
+    font-size: 30PX;
+    color: #ddbf9c;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    padding-right: 10px;
+
+}
+    .a-propos {
+        height: 70vh;
+        width: 100vw;
+        flex-wrap: wrap;
+    }
+
+    .propos-img {
+        width: 400px;
+        height: 200px;
+        position: relative;
+    }
+    
+    .propos-img img {
+        width: 80%;
+        height: 30vh;
+        position:absolute;
+    }
+
+    .propos-msg {
+        width: 75%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .msg-txt>h1 {
+        font-size: 30px;
+    }
+    
+    .msg-txt>p {
+        font-size: 15px;
+    }
+
+    .msg-txt .button {
+        font-size: 2vw;
+    }
+
+    footer {
         display: none;
     }
 }
-@media screen and (max-width:768px) {}
 @media screen and (max-width:425px) {}
 
 
