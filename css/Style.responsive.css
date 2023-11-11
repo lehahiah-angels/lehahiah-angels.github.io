@@ -23,6 +23,22 @@
         position:absolute;
     }
 
+    .services {
+        height: 50vh;
+        min-height: 100%;        
+    }
+    .wrapper {
+        max-width: 1100px;
+        width: 90%;
+        height: 40%;
+        position: relative;
+        margin: auto;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+        
+    }
 }
 
 @media screen and (max-width:1024px){
@@ -37,9 +53,14 @@
         margin: auto;
     }
 
+    .propos-msg {
+        width: 95%;
+        height: 90%;
+    }
+
     .propos-img {
-        width: 400px;
-        height: 200px;
+        width: 350px;
+        height: 150px;
         position: relative;
     }
     
@@ -55,6 +76,12 @@
     .header {
         background-color: aliceblue;
         height: 60vh;
+    }
+
+    .a-propos {
+        height: 95vh;
+        width: 100vw;
+        padding-bottom: 70px;
     }
 }
 @media screen and (max-width:768px) {
@@ -79,8 +106,11 @@
     cursor: pointer;
     transition: all 0.2s ease;
     padding-right: 10px;
-
 }
+
+    .header-txt .button{
+        font-size: 4svw;
+    }
     .a-propos {
         height: 70vh;
         width: 100vw;
@@ -100,12 +130,20 @@
     }
 
     .propos-msg {
-        width: 75%;
+        width: 95%;
         height: 50%;
         display: flex;
         align-items: center;
         justify-content: center;
     }
+
+    
+   
+.msg-txt .button {
+    padding: 5px 20px;
+    font-size: 2vw;
+
+}
 
     .msg-txt>h1 {
         font-size: 30px;
@@ -119,9 +157,33 @@
         font-size: 2vw;
     }
 
+    .service-txt {
+        height: 7%;
+    }
+    
+    .service-txt h1 {
+        font-size: 30px;
+    }
+
+    .services {
+    padding-bottom: 100px;
+        
+    }
+
+    .wrapper .carousel {
+        grid-auto-columns: calc((100% / 1) - 12px);
+    }
+
+    .carousel .card {
+        height: 352px;
+    }
+    
+
     footer {
         display: none;
     }
+
+
 }
 @media screen and (max-width:425px) {}
 

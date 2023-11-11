@@ -89,11 +89,8 @@
         font-size: 26px;
         padding-right: 35px;
     }
-    /*!
-    =========================================================
-        *PROMOTE
-    =========================================================
-    */
+
+
     .Promote {
         height: 14vh;
         width: 100%;
@@ -129,6 +126,7 @@
         grid-auto-columns: calc((100% / 1) - 12px);
     }
     
+
 }
 @media screen and (max-width:425px) {}
 @media screen and (min-height:3080px) {
