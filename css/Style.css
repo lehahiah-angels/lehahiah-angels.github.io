@@ -247,6 +247,7 @@ nav button a:hover {
 .propos-msg {
     width: 45%;
     height: 90%;
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -291,10 +292,10 @@ nav button a:hover {
     cursor: pointer;
     background-color: transparent;
     border: 2px solid;
-    color: #3e2a0f;
+    color: #694d45;
     background-color: #F1DEC9;
     font-size: 1.5vw;
-    transition: all 0.3s ease-out;
+    transition: all 0.2s ease-out;
     border: 1px solid white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border-radius: 15px;
@@ -303,8 +304,9 @@ nav button a:hover {
 
 .msg-txt .button:hover {
     background-color: #3e2a0f;
-    color: #F1DEC9;
-    border: 1px solid #543b18;
+    color: #f1dec9;
+    box-shadow: 0 0 10px 5px white;
+
 }
 
 .propos-img {
@@ -571,7 +573,7 @@ nav button a:hover {
 }
 
 .gal-txt {
-    height: 20%;
+    height: 6%;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -586,13 +588,16 @@ nav button a:hover {
 
 .ma-galerie {
     margin: 30px auto;
-    height: auto;
-    max-width: 1000px;
-    width: 100%;
+    max-width: 1200px;
+    width: 100vw;
+    height:70%;
     display: grid;
     grid-template-columns: repeat(auto-fill, 300px);
     grid-gap: 5px;
     justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
 }
 
 .gal-box1,
@@ -603,7 +608,7 @@ nav button a:hover {
 .gal-box6,
 .gal-box7,
 .gal-box8 {
-    height: 200px;
+    height: 300px;
     width: 300px;
     overflow: hidden;
 }
@@ -627,7 +632,7 @@ nav button a:hover {
 }
 
 .gal-box2 img {
-    height: 200px;
+    height: 300px;
     width: 300px;
     object-fit: cover;
     transition: transform .5s;
@@ -638,7 +643,7 @@ nav button a:hover {
 }
 
 .gal-box3 img {
-    height: 200px;
+    height: 300px;
     width: 300px;
     object-fit: cover;
     transition: transform .5s;
@@ -649,7 +654,7 @@ nav button a:hover {
 }
 
 .gal-box4 img {
-    height: 200px;
+    height: 300px;
     width: 300px;
     object-fit: cover;
     transition: transform .5s;
@@ -660,7 +665,7 @@ nav button a:hover {
 }
 
 .gal-box5 img {
-    height: 200px;
+    height: 300px;
     width: 300px;
     object-fit: cover;
     transition: transform .5s;

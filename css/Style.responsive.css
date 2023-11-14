@@ -39,6 +39,14 @@
         align-content: center;
         
     }
+
+    #galérie {
+        width: 100vw;
+        height: 50vh;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
 }
 
 @media screen and (max-width:1024px){
@@ -91,6 +99,14 @@
         height: 40vh;
     }
 
+    nav {
+        background-color: #694d45;
+    }
+    
+    .msg-txt .button {
+        font-size: 2vw;
+    }
+
     #logo a {
         font-size: 20px;
         padding-left: 20px;
@@ -130,8 +146,9 @@
     }
 
     .propos-msg {
-        width: 95%;
+        width: 90%;
         height: 50%;
+        margin: auto;
         display: flex;
         align-items: center;
         justify-content: center;
