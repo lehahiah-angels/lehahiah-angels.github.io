@@ -584,6 +584,7 @@ nav button a:hover {
     font-size: 40px;
     color: #f1dec9;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px auto;
 }
 
 .ma-galerie {
@@ -632,8 +633,8 @@ nav button a:hover {
 }
 
 .gal-box2 img {
-    height: 300px;
-    width: 300px;
+    height: 100%;
+    width: 100%;
     object-fit: cover;
     transition: transform .5s;
 }
@@ -643,8 +644,8 @@ nav button a:hover {
 }
 
 .gal-box3 img {
-    height: 300px;
-    width: 300px;
+    height: 100%;
+    width: 100%;
     object-fit: cover;
     transition: transform .5s;
 }
@@ -654,8 +655,8 @@ nav button a:hover {
 }
 
 .gal-box4 img {
-    height: 300px;
-    width: 300px;
+    height: 100%;
+    width: 100%;
     object-fit: cover;
     transition: transform .5s;
 }
@@ -665,8 +666,8 @@ nav button a:hover {
 }
 
 .gal-box5 img {
-    height: 300px;
-    width: 300px;
+    height: 100%;
+    width: 100%;
     object-fit: cover;
     transition: transform .5s;
 }

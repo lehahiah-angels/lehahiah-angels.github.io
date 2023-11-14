@@ -66,21 +66,28 @@
     }
 
     .propos-msg {
-        width: 95%;
+        width: 30%;
         height: 90%;
     }
 
     .propos-img {
-        width: 350px;
+        width: 45%;
         height: 150px;
         position: relative;
     }
     
     .propos-img img {
-        width: 100%;
+        width: 80%;
         height: 40vh;
         position:absolute;
     }
+
+    #galérie {
+        width: 100vw;
+        height: auto;
+        padding-bottom: 80px;
+    }
+    
 
 }
 @media screen and (max-width:900px) {
@@ -108,12 +115,13 @@
     /*!=======*HEADER========*/
     .header {
         background-color: aliceblue;
-        height: 40vh;
+        height: 60vh;
     }
 
+ 
     nav {
         background-color: #694d45;
-        height: 40px;
+        height: 50px;
         padding: 0;
         margin: auto;
     }
@@ -123,8 +131,7 @@
     }
 
     #logo a {
-        font-size: 20px;
-        padding-left: 20px;
+        padding-left: 40px;
     }
 
     .galerie{
@@ -132,11 +139,7 @@
     }
 
     i.menu-hamburger {
-        font-size: 30PX;
-        color: #ddbf9c;
-        cursor: pointer;
-        transition: all 0.2s ease;
-        padding-right: 10px;
+        padding-right: 40px;
     }
 
     .header-txt .button{
@@ -169,11 +172,6 @@
         justify-content: center;
     }    
    
-    .msg-txt .button {
-        padding: 5px 20px;
-        font-size: 2vw;
-
-    }
 
     .msg-txt>h1 {
         font-size: 30px;
@@ -184,7 +182,7 @@
     }
 
     .msg-txt .button {
-        font-size: 2vw;
+        font-size: 3vw;
     }
 
     .service-txt {
@@ -219,9 +217,24 @@
         width: 100%;
         height:70%;
         display: grid;
-        grid-template-columns: repeat(1, 300px);
+        grid-template-columns: repeat(to-fill, 300px);
     }
 
+    .gal-box1,
+    .gal-box2,
+    .gal-box3,
+    .gal-box4,
+    .gal-box5,
+    .gal-box6,
+    .gal-box7,
+    .gal-box8 {
+        height: 300px;
+        width: 400px;
+        overflow: hidden;
+    }
+    .gal-txt h1 {
+        font-size: 30px;
+    }
 
 }
 @media screen and (max-width:425px) {}
