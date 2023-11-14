@@ -588,8 +588,8 @@ nav button a:hover {
 
 .ma-galerie {
     margin: 30px auto;
-    max-width: 1200px;
-    width: 100vw;
+    max-width: 800px;
+    width: 80%;
     height:70%;
     display: grid;
     grid-template-columns: repeat(auto-fill, 300px);
