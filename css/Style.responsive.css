@@ -118,37 +118,48 @@
         height: 60vh;
     }
 
- 
     nav {
-        background-color: #694d45;
+        background-color: transparent;
         height: 50px;
         padding: 0;
         margin: auto;
-    }
-    
-    .msg-txt .button {
-        font-size: 2vw;
+        position: fixed;
     }
 
     #logo a {
-        padding-left: 40px;
+        padding-left: 30px;
+        font-size: 20px;
     }
 
-    .galerie{
-        display: none;
+    .scroll {
+        background-color: transparent;
+       position: fixed;
     }
 
     i.menu-hamburger {
-        padding-right: 40px;
+        padding-right: 30px;
     }
 
     .header-txt .button{
-        font-size: 4svw;
+        font-size: 6vw;
     }
+
     .a-propos {
         height: 70vh;
         width: 100vw;
         flex-wrap: wrap;
+    }
+
+
+    /*!=======*A PROPOS ========*/
+    .msg-txt {
+        text-align: center;
+        margin: 0;
+    }
+
+    .msg-txt .button {
+        font-size: 20px;
+        margin: auto;
     }
 
     .propos-img {
@@ -161,6 +172,9 @@
         width: 80%;
         height: 30vh;
         position:absolute;
+        box-shadow: 2px 13px 7px 3px rgba(241,222,201,0.68);
+        -webkit-box-shadow: 2px 13px 7px 3px rgba(241,222,201,0.68);
+        -moz-box-shadow: 2px 13px 7px 3px rgba(241,222,201,0.68);
     }
 
     .propos-msg {
@@ -170,8 +184,12 @@
         display: flex;
         align-items: center;
         justify-content: center;
-    }    
-   
+    } 
+
+     /*!=======* GALÉRIE ========*/
+    .galerie{
+        display: none;
+    }
 
     .msg-txt>h1 {
         font-size: 30px;
@@ -182,33 +200,7 @@
     }
 
     .msg-txt .button {
-        font-size: 3vw;
-    }
-
-    .service-txt {
-        height: 7%;
-    }
-    
-    .service-txt h1 {
-        font-size: 30px;
-    }
-
-    .services {
-    height: auto;
-        
-    }
-
-    .wrapper .carousel {
-        grid-auto-columns: calc((100% / 1) );
-    }
-
-    .carousel .card {
-        height: 352px;
-    }
-    
-
-    footer {
-        display: none;
+        font-size: 5.5vw;
     }
 
     .ma-galerie {
@@ -234,6 +226,43 @@
     }
     .gal-txt h1 {
         font-size: 30px;
+    }
+    
+
+    /*!=======* SERVICE ========*/
+
+    .service-txt h1 {
+        font-size: 30px;
+    }
+
+    .services {
+        height: 60vh; 
+        background-color: white;
+    }
+
+    
+    .service-txt {
+        height: 7%;
+    }
+
+    .wrapper .carousel {
+        grid-auto-columns: calc((100% / 1) );
+    }
+
+    .carousel .card {
+        height: 352px;
+    }
+    
+
+    /*!=======* FOOTER ========*/
+
+    footer {
+        display: none;
+    }
+
+    
+    #galérie {
+       display: none;
     }
 
 }

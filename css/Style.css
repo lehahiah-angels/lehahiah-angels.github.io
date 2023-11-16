@@ -380,8 +380,8 @@ nav button a:hover {
     min-height: 100vh;
     background-color: #F1DEC9;
     flex-wrap: wrap;
-    
 }
+
 
 .service-txt {
     height: 6%;
@@ -427,10 +427,12 @@ nav button a:hover {
 
 .wrapper i:first-child {
     left: -22px;
+    background-color: #F1DEC9;
 }
 
 .wrapper i:last-child {
     right: -22px;
+    background-color: #F1DEC9;
 }
 
 .wrapper .carousel {
@@ -508,7 +510,7 @@ nav button a:hover {
 .carousel .card h2 {
     font-weight: 500;
     font-size: 1.56rem;
-    margin: 30px 0 5px;
+    margin: 10px;
 }
 
 .carousel .card span {
