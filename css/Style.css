@@ -403,6 +403,9 @@ nav button a:hover {
     height: 40%;
     position: relative;
     margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .wrapper i {

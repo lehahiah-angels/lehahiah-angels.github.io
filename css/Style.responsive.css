@@ -119,7 +119,6 @@
     }
 
     nav {
-        background-color: transparent;
         height: 50px;
         padding: 0;
         margin: auto;
@@ -131,29 +130,24 @@
         font-size: 20px;
     }
 
-    .scroll {
-        background-color: transparent;
-    }
-
     i.menu-hamburger {
         padding-right: 30px;
     }
 
     .header-txt .button{
-        font-size: 6vw;
+        font-size: 20px;
     }
-
-    .a-propos {
-        height: 70vh;
-        width: 100vw;
-        flex-wrap: wrap;
-    }
-
 
     /*!=======*A PROPOS ========*/
     .msg-txt {
         text-align: center;
         margin: 0;
+    }
+
+    .a-propos {
+        height: 60vh;
+        width: 100vw;
+        flex-wrap: wrap;
     }
 
     .msg-txt .button {
@@ -236,10 +230,18 @@
 
     .services {
         height: 60vh; 
+        min-height: 70vh;
         background-color: white;
     }
 
-    
+    #la{
+        margin-top: -35px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .service-txt {
         height: 7%;
     }
