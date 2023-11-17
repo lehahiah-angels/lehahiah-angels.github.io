@@ -282,23 +282,24 @@ nav button a:hover {
 }
 
 .msg-txt .button {
-    display: flex;
-    margin: 20px 0 0 0;
+    margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
-    padding: 5px 20px;
+    padding: 2px 25px;
     cursor: pointer;
     background-color: transparent;
-    border: 2px solid;
-    color: #694d45;
-    background-color: #F1DEC9;
-    font-size: 1.5vw;
-    transition: all 0.2s ease-out;
-    border: 1px solid white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 2px solid #f1dec9;
+    color: white;
+    font-size: 2vw;
+    transition: all 0.4s ease-out;
+    font-family: "Bell MT";
     border-radius: 15px;
+}
+
+.msg-txt .button a {
+    color: white;
 }
 
 
@@ -376,7 +377,7 @@ nav button a:hover {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     min-height: 100vh;
     background-color: #F1DEC9;
     flex-wrap: wrap;
