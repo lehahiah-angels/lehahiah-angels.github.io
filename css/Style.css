@@ -627,60 +627,26 @@ nav button a:hover {
     width: auto;
 }
 
-.gal-box1 img {
-    height: 100%;
-    width: 100%;
+.gal-box1 img , 
+.gal-box2 img ,
+.gal-box3 img , 
+.gal-box4 img ,
+.gal-box5 img   {
+    height: 300px;
+    width: 300px;
     object-fit: cover;
     transition: transform .5s;
 }
 
-.gal-box1 img:hover {
-    transform: scale(1.1);
-}
-
-.gal-box2 img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    transition: transform .5s;
-}
-
-.gal-box2 img:hover {
-    transform: scale(1.1);
-}
-
-.gal-box3 img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    transition: transform .5s;
-}
-
-.gal-box3 img:hover {
-    transform: scale(1.1);
-}
-
-.gal-box4 img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    transition: transform .5s;
-}
-
-.gal-box4 img:hover {
-    transform: scale(1.1);
-}
-
-.gal-box5 img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    transition: transform .5s;
-}
-
+.gal-box1 img:hover , 
+.gal-box2 img:hover , 
+.gal-box3 img:hover ,
+.gal-box4 img:hover , 
 .gal-box5 img:hover {
     transform: scale(1.1);
 }
+
+
 
 /*
 =================================================================================================================================
