@@ -65,23 +65,6 @@
         margin: auto;
     }
 
-    .propos-msg {
-        width: 30%;
-        height: 90%;
-    }
-
-    .propos-img {
-        width: 45%;
-        height: 150px;
-        position: relative;
-    }
-    
-    .propos-img img {
-        width: 80%;
-        height: 40vh;
-        position:absolute;
-    }
-
     #galérie {
         width: 100vw;
         height: auto;
@@ -97,18 +80,31 @@
         height: 60vh;
     }
 
-    .a-propos {
-        height: 95vh;
-        width: 100vw;
-        padding-bottom: 70px;
-    }
-
     #galérie {
         width: 100vw;
         height: auto;
         max-width: 100%;
         max-height: 100%;
     }
+
+    /*!=======*A PROPOS========*/
+    .a-propos {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 80px 0;
+    }
+    .propos-msg {
+        width: 90%;
+        height: 40vh;
+    }
+    .propos-img {
+        width: 90%;
+        height: 50vh;
+    }
+    .propos-img img {
+        width: 95%;
+        height: 90%;
+ }
 }
 @media screen and (max-width:768px) {
     /*!=======*HEADER========*/
@@ -138,100 +134,7 @@
         font-size: 20px;
     }
 
-    /*!=======*A PROPOS ========*/
-    .msg-txt {
-        text-align: center;
-        margin: 0;
-    }
 
-    .a-propos {
-        height: 60vh;
-        width: 100vw;
-        flex-wrap: wrap;
-    }
-
-    .msg-txt .button {
-        font-size: 20px;
-    }
-
-    .propos-img {
-        width: 400px;
-        height: 200px;
-        position: relative;
-    }
-    
-    .propos-img img {
-        width: 80%;
-        height: 30vh;
-        position:absolute;
-        box-shadow: 2px 13px 7px 3px rgba(241,222,201,0.68);
-        -webkit-box-shadow: 2px 13px 7px 3px rgba(241,222,201,0.68);
-        -moz-box-shadow: 2px 13px 7px 3px rgba(241,222,201,0.68);
-    }
-
-    .propos-msg {
-        width: 90%;
-        height: 50%;
-        margin: auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    } 
-
-     /*!=======* GALÉRIE ========*/
-     #galérie {
-        height: auto;
-    }
-
-     .ma-galerie {
-        margin: 30px auto;
-        max-width: 80vw;
-        width: 80vw;
-        height:auto;
-        grid-gap: 10px;
-    }
-   
-    .gal-box1,
-    .gal-box2,
-    .gal-box3,
-    .gal-box4,
-    .gal-box5,
-    .gal-box6,
-    .gal-box7,
-    .gal-box8 {
-        height: 50vw;
-        width: 90vw;
-        overflow: hidden;
-    }
-    .gal-txt h1 {
-        font-size: 30px;
-    }
-
-    .gal-box1 {
-        background-position: center;
-        background-size: cover;
-        grid-column: 1;
-        width: auto;
-    }
-
-    .gal-box1 img {
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-        transition: transform .5s;
-    }
-    .msg-txt>h1 {
-        font-size: 30px;
-    }
-    
-    .msg-txt>p {
-        font-size: 15px;
-    }
-
-    .msg-txt .button {
-        font-size: 5.5vw;
-    } 
-    
 
     /*!=======* SERVICE ========*/
 

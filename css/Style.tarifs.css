@@ -101,7 +101,6 @@ nav.nav-bar {
     justify-content: space-between;
     width: 100%;
     height: 60px;
-    background-color: #f1dec9;
     position: fixed;
     z-index: 9;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -158,21 +157,22 @@ nav.nav-bar {
 .header-txt .button {
     display: flex;
     margin: auto;
-    padding: 5px 20px;
     cursor: pointer;
-    font-size: 17px;
     text-align: center;
-    font-weight: bold;
-    transition: all 0.1s ease-out;
-    border: 1px solid #F1DEC9;
-    background-color:#ddbf9c;
-    color:white;
     border-radius: 5px;
+    color:white;
+    background: transparent;
+    border-radius: 15px;
+    padding: 10px 80px;
+    transition: all 0.3s ease-in-out;
+    border: 2px solid #ddbf9c;
+    font-size: 17px;
 }
 
 .header-txt .button:hover {
-    background-color: #4733168c;
-    color:white;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 6px 5px white;
 }
 
 .header-txt .button a {
@@ -268,7 +268,7 @@ img{
 }
 
 .wrapper {
-    max-width: 1100px;
+    max-width: 1400px;
     width: 100%;
     position: relative;
     padding: 0  0 30px 0;
@@ -297,10 +297,14 @@ img{
 
 .wrapper i:first-child {
     left: -22px;
+    z-index: 1;
+    color: #694d45;
 }
 
 .wrapper i:last-child {
     right: -22px;
+    z-index: 1;
+    color: #694d45;
 }
 
 .wrapper .carousel {
@@ -344,8 +348,8 @@ img{
 
 .carousel .card {
     scroll-snap-align: start;
-    height: 302px;
-    width: 340px;
+    height: 25vw;
+    width: 23vw;
     list-style: none;
     background-color: #694d45;
     cursor: pointer;
@@ -423,14 +427,15 @@ img{
 }
 
 .btnvr {
-    color: #3e2a0f;
-    background: #F1DEC9;
+    margin: 20px 0 ;
+    color:white;
+    background: #694d45;
     font-weight: bold;
-    border-radius: 15PX;
-    padding: 10px 40px;
+    border-radius: 15px;
+    padding: 12px 80px;
     transition: all 0.3s ease-in-out;
-    font-size: 13px;
-    margin: auto;
+    border: 2px solid #ddbf9c;
+    font-size: 20px;
 }
 
 .btnvr:hover {
@@ -447,18 +452,3 @@ img{
     align-items: center;
 }
 
-.btnv {
-    margin: 20px 0 ;
-    color:white;
-    background: #694d45;
-    font-weight: bold;
-    border-radius: 15px;
-    padding: 12px 80px;
-    transition: all 0.3s ease-in-out;
-}
-
-.btnv:hover {
-    color: white;
-    transition: all 0.3s ease-in-out;
-    box-shadow: 0 0 10px 5px white;
-}

@@ -1,0 +1,82 @@
+/* ================================================================================================================================
+ *FONT
+ ================================================================================================================================ */
+ @font-face {
+    font-family: 'Afterglow';
+    src: url('Afterglow-Regular.woff2') format('woff2'),
+        url('Afterglow-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Catalish Huntera";
+    src:
+      url("../Font/Catalish\ Huntera.woff2") format("woff2") ,
+      url("../Font/Catalish\ Huntera.woff") format("woff") ;
+        font-weight: normal;
+        font-style: normal;
+    }
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('QuicksandLight-Regular.woff2') format('woff2'),
+        url('QuicksandLight-Regular.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quicksand Book Oblique';
+    src: url('QuicksandBookOblique-Regular.woff2') format('woff2'),
+        url('QuicksandBookOblique-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quicksand Dash';
+    src: url('QuicksandDash-Regular.woff2') format('woff2'),
+        url('QuicksandDash-Regular.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quicksand Light Oblique';
+    src: url('QuicksandLightOblique-Regular.woff2') format('woff2'),
+        url('QuicksandLightOblique-Regular.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quicksand Book';
+    src: url('QuicksandBook-Regular.woff2') format('woff2'),
+        url('QuicksandBook-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quicksand Bold Oblique';
+    src: url('QuicksandBoldOblique-Regular.woff2') format('woff2'),
+        url('QuicksandBoldOblique-Regular.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: "Million Harmony";
+    src: url("/Police d'écriture/Million Harmony.otf") format("opentype");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
