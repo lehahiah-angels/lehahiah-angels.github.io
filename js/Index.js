@@ -7,6 +7,18 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+//Changement d'image sous moble
+function changeImage() {
+  var image = document.querySelector(".responsiveImage");
+  if (window.innerWidth < 900) {
+    image.src = "images/z1.jpg";
+  }
+  else {
+    image.src = "images/z7.jpg";
+}
+
+window.onload = changeImage;
+window.onresize = changeImage;
 // Gestion du carrousel infini
 
 const wrapper = document.querySelector(".wrapper");
