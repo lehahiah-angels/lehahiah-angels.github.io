@@ -506,12 +506,12 @@ i.menu-hamburger {
     background-color: transparent;
     border: 2px solid #3e2a0f;
     color: #3e2a0f;
-    font-size: 25px;
+    font-size: 20px;
     transition: all 0.2s ease-out;
     font-family: 'Quicksand';
     border-radius: 15px;
     font-weight: bold;
-    
+    margin: 40px;
 }
 
 .btnv:hover {
@@ -719,7 +719,7 @@ footer {
     height: auto;
     width: 100vw;
     max-width: 100%;
-    background-color: #3b2c28;
+    background-color: #483630;
     color: #F1DEC9;
     display: flex;
     justify-content: space-around;

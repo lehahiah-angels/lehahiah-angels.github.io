@@ -65,7 +65,7 @@
     /*!=======*HEADER========*/
     .header {
         background-color: aliceblue;
-        background-image: url(../images/z7.jpg);
+        background-image: url(../images/bg10.jpg);
         height: 65vh;
     }
     .title {
@@ -76,10 +76,16 @@
         font-size: 20px;
     }
 
+    #logo {
+        margin-left: 20px;
+    }
+
     #logo a {
         font-size: 20px;
     }
-
+    i.menu-hamburger {
+        margin-right: 20px;
+    }
 
 
     /*!=======*A PROPOS========*/
@@ -124,7 +130,8 @@
         width: 90%;
     }
     .Lehahiahangel button {
-    width: 30%;
+        width: 40%;
+        font-size: 20px;
     }
     .Nospages {
         width: 90%;
@@ -145,11 +152,17 @@
 @media screen and (max-width:768px) {
     /*!=======*HEADER========*/
     nav {
-        background-color: #694d45;
+        background-color: #483630;
         height: 55px;
         padding: 0;
         position:fixed;
     }
+
+    .scroll {
+        background-color: #483630;
+        transition: all 0.3s ease;
+    }
+
      /*!=======* SERVICE ========*/
      .wrapper .carousel {
         grid-auto-columns: calc((100% / 1) - 8px);
