@@ -65,7 +65,7 @@
     /*!=======*HEADER========*/
     .header {
         background-color: aliceblue;
-        background-image: url(../images/bg10.jpg);
+        background-image: url(../images/bg01.jpg);
         height: 65vh;
     }
     .title {
@@ -75,7 +75,6 @@
         margin: -20px;
         font-size: 20px;
     }
-
     #logo {
         margin-left: 20px;
     }
@@ -85,6 +84,9 @@
     }
     i.menu-hamburger {
         margin-right: 20px;
+    }
+    .header-txt .button {
+        font-size: 20px;
     }
 
 
@@ -107,11 +109,20 @@
         height: 90%;
  }
 
-     /*!=======* SERVICE ========*/
-     .wrapper .carousel {
+    /*!=======* SERVICE ========*/
+    .wrapper .carousel {
         grid-auto-columns: calc((100% / 2) - 8px);
     }
-
+    .btnv {
+        margin: auto;
+        margin-top: 50px;
+    }
+    .carousel .card .img {
+        height:50vw;
+        width: 50vw;
+        border-radius: 50%;
+        overflow: hidden;
+    }
     /*!=======* FOOTER  ========*/
     footer {
         height: auto;

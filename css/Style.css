@@ -443,6 +443,8 @@ i.menu-hamburger {
     width: 100%;
     border-radius: 50%;
     overflow: hidden;
+    padding-top: 30px;
+    object-fit: cover;
 }
 
 .card .img img {
@@ -511,7 +513,7 @@ i.menu-hamburger {
     font-family: 'Quicksand';
     border-radius: 15px;
     font-weight: bold;
-    margin: 40px;
+    margin: 40px 0  ;
 }
 
 .btnv:hover {

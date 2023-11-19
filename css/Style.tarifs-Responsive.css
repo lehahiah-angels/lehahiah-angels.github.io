@@ -1,17 +1,11 @@
 @media (orientation: portrait) {
-    /*!
-    ==========================================================
-        *HEADER
-    ==========================================================
-    */
+    /*!=======*HEADER========*/
+
     header {
       height: 50vh;
     }
-   /*!
-    ==========================================================
-        *PROMOTE
-    ==========================================================
-    */
+    /*!=======*PROMOTE========*/
+
     .Promote {
         height: 10vh;
         width: 100%;
@@ -19,11 +13,8 @@
         justify-content: center;
     }
 
-     /*!
-    ==========================================================
-        *PROMOTIONS
-    ==========================================================
-    */
+    /*!=======*PROMOTION========*/
+
 
     .promotions {
         display: flex;
@@ -39,24 +30,26 @@
 
 
 @media screen and (max-width:1024px){
-    /*!
-    ==========================================================
-        *HEADER
-    ==========================================================
-    */
+    /*!=======*HEADER========*/
 
 }
 @media screen and (max-width:900px) {
-    /*!
-    ==========================================================
-        *HEADER
-    ==========================================================
-    */
+    /*!=======*HEADER========*/
+
     header {
         height: 50vh;
         background-image: url(../images/za-2.jpg);
     }
-
+    nav {
+        background-color: #483630;
+        height: 55px;
+        padding: 0;
+        position:fixed;
+    }
+    .scroll {
+        background-color: #483630;
+        transition: all 0.3s ease;
+    }
     #logo a {
         font-size: 17px;
         padding-left: 10px;
@@ -71,9 +64,23 @@
         padding: 5px 20px;
         font-size: 15px;
     }
-
+   
+    /*!=======* SERVICE ========*/
+    .promotions {
+        height: auto;
+    }
     .wrapper .carousel {
-        grid-auto-columns: calc((100% / 2) - 12px);
+        grid-auto-columns: calc((100% / 2) - 8px);
+    }
+    .btnv {
+        margin: auto;
+        margin-top: 50px;
+    }
+    .carousel .card .img {
+        height:50vw;
+        width: 50vw;
+        border-radius: 50%;
+        overflow: hidden;
     }
 }
 
@@ -122,8 +129,10 @@
         font-size: 10px;
     }
 
+
+    /*!=======* SERVICE ========*/
     .wrapper .carousel {
-        grid-auto-columns: calc((100% / 1) - 12px);
+        grid-auto-columns: calc((100% / 1) - 8px);
     }
     
 
