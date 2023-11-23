@@ -213,18 +213,21 @@ img{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    height: 100vh;
+    height: 70vh;
     width: 100vw;
     max-width: 100%;
     max-height: 100%;
     background-color: #F1DEC9;
     flex-wrap: wrap;
     font-family: 'Quicksand';
+    padding-bottom: 30px;
 }
 
 .promotions-txt {
     height: 6%;
-    width: 100vw;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -237,10 +240,8 @@ img{
 }
 
 .wrapper {
-    width:90vw ;
-    height: 60vh;
-    max-width: 100%;
-    max-height: 100%;
+    width:80% ;
+    height: 60%;
     position: relative;
     margin: auto;
     display: flex;
@@ -253,6 +254,8 @@ img{
     top: 50%;
     height: 50px;
     width: 50px;
+    max-width: 100%;
+    max-height: 100%;
     cursor: pointer;
     font-size: 1.45rem;
     position: absolute;
@@ -267,6 +270,9 @@ img{
 
 .wrapper i:active {
     transform: translateY(-50%) scale(0.85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .wrapper i:first-child {
@@ -279,6 +285,7 @@ img{
     right: -22px;
     z-index: 1;
     color: #694d45;
+    margin: auto;
 }
 
 .wrapper .carousel {
@@ -318,23 +325,28 @@ img{
 }
 .carousel .card {
     scroll-snap-align: start;
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
+    max-width: 100%;
+    max-height: 100%;
     list-style: none;
     background-color: #694d45;
     cursor: pointer;
     flex-direction: column;
-    border-radius: 8px;
+    border-radius: 15px;
+    ;
     overflow: hidden;
     color: white;
+    gap: 20px;
 }
 
 .card img {
-    height:250px;
-    width: 250px;
-    border-radius: 50%;
+    height:300px;
+    width: 400px;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 15px;
     overflow: hidden;
-    padding-top: 30px;
     object-fit: cover;
 }
 
@@ -356,6 +368,8 @@ img{
 .card .img img {
     width: 400px;
     height:400px;
+    max-width: 100%;
+    max-height: 100%;
     border-radius: 50%;
     object-fit: cover;
     transition: transform .5s;
