@@ -221,7 +221,7 @@ img{
     flex-wrap: wrap;
     font-family: 'Quicksand';
     padding-bottom: 30px;
-    overflow: hidden;
+    margin: auto;
 }
 
 .promotions-txt {
@@ -301,6 +301,7 @@ img{
     border-radius: 15px;
     scroll-behavior: smooth;
     scrollbar-width: none;
+    margin: auto;
 }
 
 .carousel::-webkit-scrollbar {
