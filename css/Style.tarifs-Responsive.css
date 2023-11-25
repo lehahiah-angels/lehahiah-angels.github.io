@@ -82,6 +82,39 @@
         border-radius: 50%;
         overflow: hidden;
     }
+    
+    /*!=======* FOOTER  ========*/
+    footer {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .part1 {
+        height: 80%;
+        flex-wrap: wrap;
+    }    
+    .part2 {
+        height: 20%;
+        flex-wrap: wrap;
+    }
+    .Lehahiahangel {
+        width: 90%;
+    }
+    .Lehahiahangel button {
+        width: 40%;
+        font-size: 20px;
+    }
+    .Nospages {
+        width: 90%;
+    }
+
+    .Nouscontacter {
+        width: 90%;
+    }
+
+    .Horraires {
+        width: 90%;
+    }
 }
 
 @media screen and (max-width:768px) {

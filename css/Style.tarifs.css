@@ -221,6 +221,7 @@ img{
     flex-wrap: wrap;
     font-family: 'Quicksand';
     padding-bottom: 30px;
+    overflow: hidden;
 }
 
 .promotions-txt {
@@ -240,14 +241,16 @@ img{
 }
 
 .wrapper {
-    width:80% ;
-    height: 60%;
+    width:80vw ;
+    height: 85vh;
+    max-width: 100%;
+    max-height: 100%;
     position: relative;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .wrapper i {
@@ -325,24 +328,23 @@ img{
 }
 .carousel .card {
     scroll-snap-align: start;
-    width: 500px;
-    height: 500px;
-    max-width: 100%;
-    max-height: 100%;
+    height:100%;
+    width: 100%;
     list-style: none;
     background-color: #694d45;
     cursor: pointer;
+    display: flex;
     flex-direction: column;
-    border-radius: 15px;
-    ;
+    justify-content: center;
+    align-content: center;
+    border-radius: 8px;
     overflow: hidden;
     color: white;
-    gap: 20px;
 }
 
 .card img {
-    height:300px;
-    width: 400px;
+    height:250px;
+    width: 350px;
     max-width: 100%;
     max-height: 100%;
     border-radius: 15px;
@@ -367,7 +369,7 @@ img{
 
 .card .img img {
     width: 400px;
-    height:400px;
+    height:300px;
     max-width: 100%;
     max-height: 100%;
     border-radius: 50%;
@@ -388,14 +390,14 @@ img{
 
 
 .carousel .card h3 {
-    position: absolute;
     font-weight: 100;
     font-size: 30px;
-    margin: 0 0 5px;
+    margin: 30px 0;
     text-align: center;
     top: 10px;
-    color: white;
+    color: #ddbf9c;
     z-index: 1;
+    font-weight: bold;
 }
 
 .carousel .card span {
@@ -404,28 +406,250 @@ img{
 }
 
 .btnvr {
-    margin: 20px 0 ;
-    color:white;
-    background: #694d45;
-    font-weight: bold;
-    border-radius: 15px;
-    padding: 8px 60px;
-    transition: all 0.3s ease-in-out;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 2px 25px;
+    cursor: pointer;
+    background-color: transparent;
     border: 2px solid #ddbf9c;
-    font-size: 18px;
+    color: #ddbf9c;
+    font-size: 20px;
+    transition: all 0.2s ease-out;
+    font-family: 'Quicksand';
+    border-radius: 15px;
+    font-weight: bold;
+    margin: 30px 0;
+
 }
 
 .btnvr:hover {
-    color: white;
-    transition: all 0.3s ease-in-out;
-    box-shadow: 0 0 6px 5px white;
+    box-shadow: 0 0 10px 5px #ddbf9c;
+    border: 2px solid transparent;
 }
 
 #la{
-    margin-top: -55px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+
+/*!
+=================================================================================================================================
+     *FOOTER
+=================================================================================================================================
+*/
+
+footer {
+    height: auto;
+    width: 100vw;
+    max-width: 100%;
+    background-color: #483630;
+    color: #F1DEC9;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family: 'Quicksand';
+    padding-bottom: 20px;
+}
+
+.part1 {
+    height: 80%;
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-weight: lighter;
+    padding-bottom: 10px;
+}
+
+
+.part2 {
+    height: 20%;
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.part2 span {
+    cursor: pointer;
+    padding: 10px 0;
+}
+
+.Lehahiahangel {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    gap: 15px;
+    padding: 20px 10px;
+}
+
+.Lehahiahangel h1 {
+    font-size: 25px;
+    color: white;
+    font-family: "Catalish Huntera";
+}
+
+.Lehahiahangel p {
+    font-size: 20px;
+}
+
+.Lehahiahangel button {
+    display: flex;
+    justify-content: center;
+    padding: 2px 10px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #f1dec9;
+    color: white;
+    font-size: 25px;
+    transition: all 0.2s ease-out;
+    font-family: 'Quicksand';
+    border-radius: 15px;
+    width: 200px;
+}
+
+.Lehahiahangel button a {
+    color: #f1dec9;
+}
+
+.Lehahiahangel button:hover {
+    color: #f1dec9;
+    box-shadow: 0 0 10px 5px white;
+}
+
+.Nospages {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    gap: 15px;
+    padding: 20px 10px;
+    overflow: hidden;
+}
+
+.Nospages h1 {
+    font-size:25px;
+    color: white;
+}
+
+.Nospages a {
+    color: #F1DEC9;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+    padding-bottom: 2px;
+    transition: all 0.2s ease-in-out;
+}
+
+.Nospages a:hover {
+    padding-bottom: 2px;
+    width: 90%;
+    border-bottom: 1px solid #F1DEC9;
+}
+
+hr {
+    color: white;
+    cursor: pointer;
+}
+
+.Nouscontacter {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    gap: 10px;
+    padding: 20px 0;
+}
+
+.Nouscontacter h1 a{
+    font-size: 25px;
+    color: white;
+}
+
+.Nouscontacter div {
+    gap: 20px;
+    display: flex ;
+    font-size: 20px;
+}
+
+.Nouscontacter a.fac{
+    padding-right: 10px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    font-weight: lighter;
+}
+
+.Nouscontacter i{
+    font-size: 25px;
+    color: #F1DEC9;
+    transition: all 0.1s ease-in-out;
+}
+
+.Nouscontacter i:hover{
+    color:#694d45;
+}
+
+
+
+.Horraires {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    gap: 10px;
+    padding: 20px 0;
+}
+
+.Horraires h1 {
+    font-size: 25px;
+    color: white;
+}
+
+.Horraires p {
+    font-size: 15px;
+    font-family: 'Quicksand';
+
+}
+
+.Horraires span {
+    padding-left: 20px;
+}
+
+.part2 p {
+    border-top: 1px solid white;
+    padding-top: 10px;
+    width: 70%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social{
+    width: 100%;
+    gap: 20px;
+    color: #F1DEC9;
+}
+
+
+.social i{
+    font-size: 30px;
+    padding-right: 10px;
+    cursor: pointer;
+    color: #F1DEC9;
+    transition: all 0.1s ease-in-out;
+}
+
+.social i:hover{
+    color:#694d45;
+}
+
+.part2 p span:hover {
+    border-bottom: 1px solid white;
+    padding-bottom: 2px;
+    transition: 0.2S all ease ;
+}
+
+
 

@@ -18,8 +18,8 @@ function changeImage() {
 }
 window.onload = changeImage;
 window.onresize = changeImage;
-// Gestion du carrousel infini
 
+// Gestion du carrousel infini
 const wrapper = document.querySelector(".wrapper");
 const carousel = document.querySelector(".carousel");
 const firstCardWidth = carousel.querySelector(".card").offsetWidth;
@@ -97,3 +97,57 @@ document.addEventListener("mouseup", dragStop);
 carousel.addEventListener("scroll", infiniteScroll);
 wrapper.addEventListener("mouseenter", () => clearTimeout(timeoutId));
 wrapper.addEventListener("mouseleave", autoPlay);
+
+// Gestion du carrousel infini
+document.addEventListener("DOMContentLoaded", function () {
+  // Sélectionne l'élément du bouton "to-top"
+  var toTopButton = document.querySelector(".to-top");
+
+  // Affiche ou masque le bouton "to-top" en fonction de la position de défilement
+  window.addEventListener("scroll", function () {
+    // Vérifie si la position de défilement est supérieure à 1000px avant d'afficher le bouton
+    if (
+      (document.body.scrollTop > 100 ||
+        document.documentElement.scrollTop > 100) &&
+      (document.body.scrollTop < 1000 ||
+        document.documentElement.scrollTop < 1000)
+    ) {
+      toTopButton.style.display = "block";
+    } else {
+      toTopButton.style.display = "none";
+    }
+  });
+
+  // Scroll vers le haut de la page lorsque le bouton est cliqué
+  toTopButton.addEventListener("click", function () {
+    scrollToTop(1500);
+  });
+
+  // Fonction pour effectuer le scroll vers le haut de la page avec une animation
+  function scrollToTop(duration) {
+    var start = window.scrollY || document.documentElement.scrollTop,
+      currentTime = 0,
+      increment = 20;
+
+    var animateScroll = function () {
+      currentTime += increment;
+      var val = Math.easeInOutExpo(currentTime, start, -start, duration);
+      document.body.scrollTop = val;
+      document.documentElement.scrollTop = val;
+
+      if (currentTime < duration) {
+        setTimeout(animateScroll, increment);
+      }
+    };
+
+    animateScroll();
+  }
+
+  // Fonction d'interpolation pour l'animation de défilement
+  Math.easeInOutExpo = function (t, b, c, d) {
+    t /= d / 2;
+    if (t < 1) return (c / 2) * Math.pow(2, 10 * (t - 1)) + b;
+    t--;
+    return (c / 2) * (-Math.pow(2, -10 * t) + 2) + b;
+  };
+});
