@@ -77,7 +77,11 @@
         width: 100%;
         grid-auto-columns: calc((100% / 2) - 8px);
     }
+    .card img {
+        height:300px;
+        width: 90%;
 
+    }
     
     /*!=======* FOOTER  ========*/
     footer {
@@ -133,12 +137,12 @@
 
     #logo a {
         font-size: 23px;
-        padding-left: 35px;
+        padding-left: 20px;
     }
 
     .menu-hamburger {
         font-size: 26px;
-        padding-right: 35px;
+        padding-right: 20px;
     }
 
 
@@ -177,12 +181,6 @@
     /*!=======* SERVICE ========*/
     .wrapper .carousel {
         grid-auto-columns: calc((100% / 1) - 8px);
-    }
-    .card img {
-        height:300px;
-        width: 400px;
-        max-width: 100%;
-        max-height: 100%;
     }
 
 
