@@ -86,7 +86,7 @@ const infiniteScroll = () => {
 
 const autoPlay = () => {
   if (window.innerWidth < 800 || !isAutoPlay) return;
-  timeoutId = setTimeout(() => (carousel.scrollLeft += firstCardWidth), 3500);
+  timeoutId = setTimeout(() => (carousel.scrollLeft += firstCardWidth), 1300);
 };
 
 autoPlay();

@@ -37,30 +37,44 @@
         
     }
 
-    #galérie {
-        width: 100vw;
-        height: 50vh;
-        max-width: 100%;
-        max-height: 100%;
-    }
+
 
 }
-
-@media screen and (max-width:1024px){
-    .promotions {
-        width: 100vw;
-        height: 200vh;
-        max-width: auto;
-        max-height: auto;
-        background-color: #694d45;
-        display: flex;
-        flex-wrap: wrap;
-        margin: auto;
+@media screen and (max-width:1700px){
+    /*!=======*GALÉRIE========*/
+    .ma-galerie {
+        width: 90vw;
+        grid-template-columns: repeat(auto-fill, 25vw);
     }
 
-    
+    :where(
+    .gal-box1,
+    .gal-box2,
+    .gal-box3,
+    .gal-box4,
+    .gal-box5,
+    .gal-box6,
+    .gal-box7,
+    .gal-box8 ){
+        height: 35vh;
+        width: 25vw;
+        overflow: hidden;  
+    }
 
+    :where(
+    .gal-box2 img,
+    .gal-box3 img,
+    .gal-box4 img,
+    .gal-box5 img)
+    {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: transform .5s;
 }
+}
+
+
 @media screen and (max-width:900px) {
     /*!=======*HEADER========*/
     .header {
@@ -110,6 +124,10 @@
  }
 
     /*!=======* SERVICE ========*/
+    .services {
+        height: auto;
+        padding-bottom: 50px;
+    }
     .wrapper .carousel {
         grid-auto-columns: calc((100% / 2) - 8px);
     }
@@ -156,9 +174,32 @@
         width: 90%;
     }
 
-    #galérie {
-        display: none;
+       /*!=======*GALÉRIE========*/
+       .ma-galerie {
+        display: flex;
+        flex-wrap: wrap;
+        width: 90vw;
     }
+
+    :where(
+    .gal-box1,
+    .gal-box2,
+    .gal-box3,
+    .gal-box4,
+    .gal-box5,
+    .gal-box6,
+    .gal-box7,
+    .gal-box8 ){
+        height: 35vh;
+        width: 90%;
+        overflow: hidden;  
+    }
+    .gal-box1 ,.gal-box6{
+        width: 90%;
+    }
+    
+
+
 }
 @media screen and (max-width:768px) {
     /*!=======*HEADER========*/
