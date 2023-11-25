@@ -295,6 +295,7 @@ a.to-top {
     align-content: center;
     justify-content: center;
     justify-items: center;
+    z-index: 9999999999999999999;
   }
   @keyframes action {
     0% {

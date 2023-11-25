@@ -19,7 +19,6 @@
     .promotions {
         display: flex;
         flex-wrap: wrap;
-        padding: 0 35px;
         align-items: center;
         justify-content: center;
         min-height: 30vh;
@@ -30,7 +29,10 @@
 
 
 @media screen and (max-width:1024px){
-    /*!=======*HEADER========*/
+    .promotions {
+        height: auto;
+        width: 100%;
+    }
 
 }
 @media screen and (max-width:900px) {
@@ -66,22 +68,16 @@
     }
    
     /*!=======* SERVICE ========*/
-    .promotions {
-        height: auto;
+
+    .promotions-txt h1 {
+        margin-top: 55px;
     }
+    
     .wrapper .carousel {
+        width: 100%;
         grid-auto-columns: calc((100% / 2) - 8px);
     }
-    .btnv {
-        margin: auto;
-        margin-top: 50px;
-    }
-    .carousel .card .img {
-        height:50vw;
-        width: 50vw;
-        border-radius: 50%;
-        overflow: hidden;
-    }
+
     
     /*!=======* FOOTER  ========*/
     footer {
@@ -119,6 +115,21 @@
 
 @media screen and (max-width:768px) {
 
+    .promotions {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        height: 70vh;
+        width: 100vw;
+        max-width: 100%;
+        max-height: 100%;
+        background-color: #F1DEC9;
+        flex-wrap: wrap;
+        font-family: 'Quicksand';
+        padding-bottom: 30px;
+        margin: auto;
+    }
 
     #logo a {
         font-size: 23px;
