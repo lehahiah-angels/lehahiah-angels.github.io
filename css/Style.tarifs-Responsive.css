@@ -82,7 +82,31 @@
         width: 90%;
 
     }
-    
+    /*!=======* NOSSOINS  ========*/
+    .nosmassages{
+        flex-wrap: wrap;
+    }
+
+    .menu{
+      z-index: 1;
+      width: 100%;
+      flex-direction: row;
+    }
+
+    .menu li{
+        width: 80px;
+        height: 50px;
+        text-align: center;
+        color: #483630;
+        font-size: 15px;
+        background-color: #ddbf9c;
+    }
+
+    .cartemassage{
+        height: 90%;
+        width: 100%;
+    }
+
     /*!=======* FOOTER  ========*/
     footer {
         height: auto;

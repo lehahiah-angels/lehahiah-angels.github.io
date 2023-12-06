@@ -435,6 +435,121 @@ img{
     justify-content: center;
     align-items: center;
 }
+/*!
+=================================================================================================================================
+     *NOSMASSAGES
+=================================================================================================================================
+*/
+.nosmassages{
+    height: auto;
+    width: 100vw;
+    max-width: 100%; 
+    display: flex;   
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    padding: 80px 0;
+}
+
+.menu{
+    height: auto;
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Afterglow';
+}
+
+.menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    gap: 5px;
+}
+
+.menu li{
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    color: #483630;
+    font-size: 20px;
+    background-color: #ddbf9c;
+}
+
+.menu li:hover{
+    box-shadow: 0 0 5px 2px #ddbf9c;
+    border: 2px solid transparent;
+}
+
+.cartemassage{
+    height: 90%;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 220px);
+    justify-content: center;
+    align-items: center;
+    grid-gap: 10px;
+    padding:  20px 5px;
+
+}
+.carte-item {
+    width: 220px;
+    height: 250px;
+    background-color: #F1DEC9;
+    border-radius: 35px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 8px 0;
+}
+
+.carte-item img{
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    -webkit-border-top-left-radius: 35px;
+    -webkit-border-top-right-radius: 35px;
+    -moz-border-radius-topleft: 35px;
+    -moz-border-radius-topright: 35px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+}
+
+.carte-txt{
+    height: 40%;
+    width: 100%;
+    background-color: #f1dec9;
+    -webkit-border-bottom-right-radius: 35px;
+    -webkit-border-bottom-left-radius: 35px;
+    -moz-border-radius-bottomright: 35px;
+    -moz-border-radius-bottomleft: 35px;
+    border-bottom-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    font-family: 'Quicksand';
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.carte-txt h3 {
+    font-size: 15px;
+}
+
+.carte-txt h4 {
+    font-size: 15px;
+    background-color: #694d45;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+}
 
 
 /*!
