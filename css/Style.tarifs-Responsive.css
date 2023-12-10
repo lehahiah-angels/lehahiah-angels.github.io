@@ -78,34 +78,42 @@
         grid-auto-columns: calc((100% / 2) - 8px);
     }
     .card img {
-        height:300px;
-        width: 90%;
-
+        height:250px;
+        width: 95%;
     }
+    
     /*!=======* NOSSOINS  ========*/
     .nosmassages{
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     .menu{
       z-index: 1;
-      width: 100%;
+      width: 75vw;
       flex-direction: row;
+      margin: auto;
+      align-items: center;
+      align-content: center;
+      border-radius: 15px;
     }
 
-    .menu li{
-        width: 80px;
+    .menu .item-menu{
+        width: 90%;
         height: 50px;
         text-align: center;
-        color: #483630;
         font-size: 15px;
-        background-color: #ddbf9c;
+        border-radius: 50px;
+        margin: auto;
+        justify-content: center;
+        padding-left:0 ;
     }
 
     .cartemassage{
         height: 90%;
         width: 100%;
         grid-template-columns: repeat(auto-fill, 290px);
+        padding:  20px 5px;
     }
 
     .carte-item {
@@ -124,6 +132,11 @@
         margin: 10px 0 5px 0;
     }
 
+    .carte-txt h4 {
+        font-size: 15px;
+        padding: 20px;
+
+    }
     /*!=======* FOOTER  ========*/
     footer {
         height: auto;
