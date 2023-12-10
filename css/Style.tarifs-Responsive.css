@@ -238,11 +238,11 @@
     .cartemassage{
         height: 100%;
         width: 100%;
-        grid-template-columns: repeat(auto-fill, 100px);
+        grid-template-columns: repeat(auto-fill, 150px);
     }
 
     .carte-item {
-        width: 100px;
+        width: 150px;
         height: 250px;
     }
     .carte-txt h3 {
