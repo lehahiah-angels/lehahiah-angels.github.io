@@ -79,7 +79,7 @@
     }
     .card img {
         height:250px;
-        width: 95%;
+        width: 85%;
     }
     
     /*!=======* NOSSOINS  ========*/
@@ -117,8 +117,8 @@
     }
 
     .carte-item {
-        width: 290px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
         background-color: #F1DEC9;
         border-radius: 35px;
         position: relative;
@@ -236,13 +236,21 @@
     .cartemassage{
         height: 90%;
         width: 100%;
-        grid-template-columns: repeat(auto-fill, 350px);
+        grid-template-columns: repeat(auto-fill, 200px);
     }
 
     .carte-item {
-        width: 350px;
-        height: 350px;
+        width: 200px;
+        height: 250px;
     }
+    .carte-txt h3 {
+        font-size: 13px;
+    }
+    .carte-txt h4 {
+        font-size: 15px;
+        padding: 5px;
+    }
+
 
     /*!=======* SERVICE ========*/
     .wrapper .carousel {
