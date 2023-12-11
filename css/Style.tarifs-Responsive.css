@@ -179,16 +179,7 @@
 @media screen and (max-width:768px) {
 
     .promotions {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-between;
-        height: auto;
-        width: 100vw;
-        max-width: 100%;
-        background-color: #F1DEC9;
-        flex-wrap: wrap;
-        font-family: 'Quicksand';
+        height: 100vw;
         padding-bottom: 60px;
         margin: auto;
     }
