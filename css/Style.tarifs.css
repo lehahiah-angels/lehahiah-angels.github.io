@@ -345,7 +345,7 @@ img{
 
 .card img {
     height:250px;
-    width: 350px;
+    width: 250px;
     max-width: 100%;
     max-height: 100%;
     border-radius: 15px;
@@ -484,7 +484,6 @@ img{
     background-color: transparent;
     border: 2px solid #694d451c;
     color: #694d45a6;
-    font-size: 20px;
     transition: all 0.2s ease-out;
     font-family: 'Quicksand';
     font-weight: bold;
@@ -544,7 +543,6 @@ img{
     align-items: center;
     grid-gap: 10px;
     padding:  20px 5px;
-
 }
 .carte-item {
     width: 220px;
@@ -615,9 +613,10 @@ footer {
     color: #F1DEC9;
     display: flex;
     justify-content: space-around;
+    align-content: flex-start;
     flex-wrap: wrap;
     font-family: 'Quicksand';
-    padding-bottom: 20px;
+    font-size: 15px;
 }
 
 .part1 {
@@ -627,7 +626,7 @@ footer {
     display: flex;
     justify-content: space-around;
     font-weight: lighter;
-    padding-bottom: 10px;
+    font-size: 15px;
 }
 
 
@@ -639,6 +638,7 @@ footer {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    font-size: 15px;
 }
 
 .part2 span {
@@ -649,19 +649,19 @@ footer {
 .Lehahiahangel {
     display: flex;
     flex-direction: column;
-    width: 20%;
-    gap: 15px;
-    padding: 20px 10px;
+    width: 19%;
+    gap: 5px;
+    padding: 10px 10px;
 }
 
 .Lehahiahangel h1 {
-    font-size: 25px;
+    font-size: 18px;
     color: white;
     font-family: "Catalish Huntera";
 }
 
 .Lehahiahangel p {
-    font-size: 20px;
+    padding-bottom: 15px;
 }
 
 .Lehahiahangel button {
@@ -672,11 +672,11 @@ footer {
     background-color: transparent;
     border: 2px solid #f1dec9;
     color: white;
-    font-size: 25px;
+    font-size: 15px;
     transition: all 0.2s ease-out;
     font-family: 'Quicksand';
     border-radius: 15px;
-    width: 200px;
+    width: 100px;
 }
 
 .Lehahiahangel button a {
@@ -691,20 +691,19 @@ footer {
 .Nospages {
     display: flex;
     flex-direction: column;
-    width: 10%;
-    gap: 15px;
-    padding: 20px 10px;
-    overflow: hidden;
+    width: 15%;
+    gap: 5px;
+    padding: 10px 10px;
 }
 
 .Nospages h1 {
-    font-size:25px;
+    font-size: 20px;
     color: white;
 }
 
 .Nospages a {
     color: #F1DEC9;
-    font-size: 20px;
+    font-size: 15px;
     cursor: pointer;
     transition: 0.2s;
     padding-bottom: 2px;
@@ -725,20 +724,20 @@ hr {
 .Nouscontacter {
     display: flex;
     flex-direction: column;
-    width: 20%;
-    gap: 10px;
-    padding: 20px 0;
+    width: 25%;
+    gap: 5px;
+    padding: 10px 10px;
 }
 
 .Nouscontacter h1 a{
-    font-size: 25px;
+    font-size: 20px;
     color: white;
 }
 
 .Nouscontacter div {
     gap: 20px;
     display: flex ;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .Nouscontacter a.fac{
@@ -749,7 +748,7 @@ hr {
 }
 
 .Nouscontacter i{
-    font-size: 25px;
+    font-size: 15px;
     color: #F1DEC9;
     transition: all 0.1s ease-in-out;
 }
@@ -763,13 +762,13 @@ hr {
 .Horraires {
     display: flex;
     flex-direction: column;
-    width: 20%;
-    gap: 10px;
-    padding: 20px 0;
+    width: 25%;
+    gap: 5px;
+    padding: 10px 0;
 }
 
 .Horraires h1 {
-    font-size: 25px;
+    font-size: 20px;
     color: white;
 }
 
@@ -780,7 +779,7 @@ hr {
 }
 
 .Horraires span {
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 .part2 p {
@@ -789,6 +788,7 @@ hr {
     width: 70%;
     text-align: center;
     margin-top: 20px;
+    font-size: 15px;
 }
 
 .social{
@@ -799,7 +799,7 @@ hr {
 
 
 .social i{
-    font-size: 30px;
+    font-size: 15px;
     padding-right: 10px;
     cursor: pointer;
     color: #F1DEC9;
