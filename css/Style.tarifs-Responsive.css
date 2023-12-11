@@ -236,13 +236,15 @@
 
     .menu{
         height: 200px;
-        width: 100vw;
+        width: 90vw;
         border-radius: 0;
         z-index: 2;
         margin-bottom:40px;
         background-color:#694d45a6;
     }
-
+    .soins h1{
+        font-size: 40px;
+    }
     .cartemassage{
         z-index: 1;
         width: 95%;
@@ -258,7 +260,7 @@
     .menu .item-menu{
         display: flex;
         justify-content: center;
-        width: 200px;
+        width: 150px;
         height: 40px;
         cursor: pointer;
         background-color: transparent;
