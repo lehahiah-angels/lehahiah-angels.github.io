@@ -108,6 +108,7 @@
     .nosmassages{ 
         flex-wrap: wrap;
     }
+
     /*!=======* FOOTER  ========*/
     footer {
         height: auto;
@@ -201,6 +202,24 @@
         grid-auto-columns: calc((100% / 1) - 8px);
     }
 
+    /*!=======*NOSMASSAGES========*/
+    .nosmassages{
+        height: auto;
+        width: 100vw;
+    }
+    .menu{
+        width: 95%;
+        max-width: 950%; 
+        margin: 10px auto;
+    }
+    .cartemassage{
+        width: 100%;
+        grid-template-columns: repeat(auto-fill, 150px);
+    }
+    .carte-item {
+        width: 150px;
+        height: 250px;
+    }
 
 }
 @media screen and (max-width:425px) {}
