@@ -104,10 +104,6 @@
         font-size: 15px;
     }
 
-    .to-top{
-        display: none;
-    }
-
     /*!=======*A PROPOS========*/
     .a-propos {
         flex-wrap: wrap;
@@ -116,7 +112,8 @@
     }
     .propos-msg {
         width: 90%;
-        height: auto;
+        height: 40vw;
+        padding: 40px 0;
     }
     .msg-txt>h1 {
         font-size: 30px;
@@ -126,14 +123,17 @@
         font-size: 15px;
         color: white;
     }
-
+    .msg-txt .button {
+        margin-bottom: 10px;
+    }
     .propos-img {
         width: 90%;
-        height: 50vh;
+        height: 30vh;
     }
     .propos-img img {
-        width: 80%;
-        height: 60%;
+        width: 100%;
+        height: 100%;
+        margin: 0;
  }
 
     /*!=======* SERVICE ========*/
@@ -149,11 +149,38 @@
         margin-top: 50px;
     }
     .carousel .card .img {
-        height:50vw;
-        width: 50vw;
+        height:250px;
+        width: 250px;
         border-radius: 50%;
         overflow: hidden;
     }
+    .card .img img {
+        width: 250px;
+        height:250px;
+    }
+        /*!=======*GALÉRIE========*/
+        .ma-galerie {
+         display: flex;
+         flex-wrap: wrap;
+         width: 90vw;
+        }
+    
+        :where(
+        .gal-box1,
+        .gal-box2,
+        .gal-box3,
+        .gal-box4,
+        .gal-box5,
+        .gal-box6,
+        .gal-box7,
+        .gal-box8 ){
+            height: 25vh;
+            width: 90%;
+            overflow: hidden;  
+        }
+        .gal-box1 ,.gal-box6{
+            width: 90%;
+        }
     /*!=======* FOOTER  ========*/
     footer {
         height: auto;
@@ -179,41 +206,12 @@
         width: 90%;
     }
 
-    .Nouscontacter {
-        width: 90%;
-    }
 
     .Horraires {
         width: 90%;
     }
 
-       /*!=======*GALÉRIE========*/
-       .ma-galerie {
-        display: flex;
-        flex-wrap: wrap;
-        width: 90vw;
-    }
 
-    :where(
-    .gal-box1,
-    .gal-box2,
-    .gal-box3,
-    .gal-box4,
-    .gal-box5,
-    .gal-box6,
-    .gal-box7,
-    .gal-box8 ){
-        height: 35vh;
-        width: 90%;
-        overflow: hidden;  
-    }
-    .gal-box1 ,.gal-box6{
-        width: 90%;
-    }
-    .to-top{
-        display: none;
-    }
-   
 }
 @media screen and (max-width:768px) {
     /*!=======*HEADER========*/

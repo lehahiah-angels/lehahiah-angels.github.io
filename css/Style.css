@@ -330,18 +330,20 @@ a.to-top {
     background-color: #F1DEC9;
     flex-wrap: wrap;
     font-family: 'Quicksand';
+    gap: 20px;
+    padding: 40px 0;
 }
 
 .service-txt {
-    height: 5%;
+    height: 4%;
     width: 100vw;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .service-txt h1 {
-    padding-top: 35px;
+    padding: 20px;
     font-size: 40px;
     color: #694d45;
 }
@@ -497,7 +499,7 @@ a.to-top {
 }
 
 #la{
-    margin: -25px 0;
+    margin:  0;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -508,6 +510,7 @@ a.to-top {
     margin: auto;
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 2px 25px;
     cursor: pointer;
     background-color: transparent;
@@ -518,7 +521,7 @@ a.to-top {
     font-family: 'Quicksand';
     border-radius: 15px;
     font-weight: bold;
-    margin: 10px 0 70px 0 ;
+    margin: auto;
 }
 
 .btnv:hover {
