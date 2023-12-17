@@ -128,7 +128,7 @@
     }
     .propos-img {
         width: 90%;
-        height: 30vh;
+        height: 20vh;
     }
     .propos-img img {
         width: 100%;
@@ -154,33 +154,39 @@
         border-radius: 50%;
         overflow: hidden;
     }
+    .carousel .card .img:hover {
+        height:250px;
+        width: 250px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
     .card .img img {
         width: 250px;
         height:250px;
     }
-        /*!=======*GALÉRIE========*/
-        .ma-galerie {
-         display: flex;
-         flex-wrap: wrap;
-         width: 90vw;
-        }
-    
-        :where(
-        .gal-box1,
-        .gal-box2,
-        .gal-box3,
-        .gal-box4,
-        .gal-box5,
-        .gal-box6,
-        .gal-box7,
-        .gal-box8 ){
-            height: 25vh;
-            width: 90%;
-            overflow: hidden;  
-        }
-        .gal-box1 ,.gal-box6{
-            width: 90%;
-        }
+    /*!=======*GALÉRIE========*/
+    .ma-galerie {
+        display: flex;
+        flex-wrap: wrap;
+        width: 90vw;
+       }
+   
+       :where(
+       .gal-box1,
+       .gal-box2,
+       .gal-box3,
+       .gal-box4,
+       .gal-box5,
+       .gal-box6,
+       .gal-box7,
+       .gal-box8 ){
+           height: 25vh;
+           width: 90%;
+           overflow: hidden;  
+       }
+       .gal-box1 ,.gal-box6{
+           width: 90%;
+       }    
     /*!=======* FOOTER  ========*/
     footer {
         height: auto;
@@ -206,11 +212,18 @@
         width: 90%;
     }
 
+    .Nouscontacter {
+        width: 90%;
+        padding: 0;
+        margin: 0;
+    }
 
     .Horraires {
         width: 90%;
     }
-
+    a.to-top {
+        display: none;
+      }
 
 }
 @media screen and (max-width:768px) {

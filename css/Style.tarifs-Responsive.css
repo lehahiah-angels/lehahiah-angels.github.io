@@ -207,36 +207,8 @@
 
 
     .Promote {
-        height: 10vh;
-        width: 100%;
-        display: flex;
-        justify-content: center;
+        display: none;
     }
-
-    .promotions-txt h1 {
-        font-size: 30px;
- }
-    
-    .promote-box{
-        width: 95%;
-    }
-
-    img{
-        width: 50px;
-        height: 40px;
-    }
-
-    .box{
-        height:100px ;
-        width:100px ;
-        margin-bottom: 10px;
-    }
-
-    .box-txt {
-        padding-top: 0;
-        font-size: 10px;
-    }
-
     
     /*!=======* SERVICE ========*/
     .wrapper .carousel {

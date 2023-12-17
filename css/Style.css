@@ -527,9 +527,7 @@ a.to-top {
 .btnv:hover {
     box-shadow: 0 0 10px 5px #3e2a0f;
     border: 2px solid transparent;
-
 }
-
 
 /*
 =================================================================================================================================
@@ -886,9 +884,6 @@ hr {
 .Nouscontacter i:hover{
     color:#694d45;
 }
-
-
-
 
 .Horraires {
     display: flex;

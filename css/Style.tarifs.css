@@ -154,25 +154,25 @@ nav.nav-bar {
 
 .Promote {
     height: 16vh;
-    width: 100%;
+    width: 100VW;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .promote-box{
-    height: 90%;
-    width: 80%;
+    height: 100%;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     align-content: center;
     flex-wrap: nowrap;
-    margin-top: auto;
+    margin: auto;
 }
 
 .box{
-    height:100px ;
-    width:100px ;
+    height:50px ;
+    width:50px ;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -184,25 +184,17 @@ nav.nav-bar {
 
 img{
     display: flex;
-    width: 50px;
-    height: 50px;    
+    width: 40px;
+    height:40px;    
 }
 
 .box-txt {
     display: flex;
-    padding-top: 10px;
     font-size: 10px;
     text-align: center;
     color:#F1DEC9;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 13px;
-    margin-bottom: 20px;
 }
-
-
-
-
-
 
 /*!
 =================================================================================================================================
@@ -221,7 +213,7 @@ img{
     background-color: #F1DEC9;
     flex-wrap: wrap;
     font-family: 'Quicksand';
-    padding-bottom: 30px;
+    padding: 30px 0;
     margin: auto;
 }
 
