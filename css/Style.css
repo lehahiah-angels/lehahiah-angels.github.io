@@ -24,7 +24,8 @@ a {
 }
 
 body {
-    background: aliceblue;
+    background-color: #694d45;
+
 }
 
 .revelx,
@@ -95,9 +96,9 @@ i.menu-hamburger {
     position: relative;
     z-index: 79;
     color: aliceblue;
-}
-
-.header::before {
+    clip-path: polygon(0% 0%, 100% 0, 100% 100%, 51% 90%, 0% 100%);}
+    
+    .header::before {
     content: "";
     position: absolute;
     background-color: rgba(0, 0, 0, 0.598);
@@ -113,17 +114,17 @@ i.menu-hamburger {
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 60vw;
+    width: 98vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 25px;
+    gap: 20px;
 }
 
 .title {
     color:#cba880;
-    font-size: 6vw;
-    gap: 4vw;
+    font-size: 90px;
+    gap: 10px;
     font-family: "Catalish Huntera";
     display: flex;
     justify-content: center;
@@ -137,18 +138,17 @@ i.menu-hamburger {
     font-family: 'Quicksand';
     font-weight: lighter;
     color: white;
-    font-size: 2vw;
+    font-size: 25px;
     display: flex;
     justify-content: center;
     width: 100%;
-    margin: -50px;
 }
 
 .header-txt .button {
     margin: auto;
     display: flex;
     justify-content: center;
-    padding: 2px 25px;
+    padding: 2px 35px;
     cursor: pointer;
     background-color: transparent;
     border: 2px solid #f1dec9;
@@ -186,7 +186,7 @@ i.menu-hamburger {
 }
 
 .propos-msg {
-    width: 40%;
+    width: 50%;
     height: 70%;
     padding: 0 20px;
     display: flex;
@@ -203,13 +203,13 @@ i.menu-hamburger {
 }
 
 .msg-txt>h1 {
-    font-size: 40px;
+    font-size: 50px;
     color: #f1dec9;
     font-family:"Quicksand";
 }
 
 .msg-txt>p {
-    font-size: 20px;
+    font-size: 22px;
     color: white;
     font-family:"Quicksand";
     font-weight: lighter;}
@@ -250,7 +250,7 @@ i.menu-hamburger {
 }
 
 .propos-img {
-    width: 40%;
+    width: 30%;
     height: 70%;
     position: relative;
     display: flex;

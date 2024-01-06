@@ -83,7 +83,7 @@
         height: 55vh;
     }
     .title {
-        font-size: 6vw;
+        font-size: 35px;
         gap: 5px;
     }
     .sstitle {
@@ -114,13 +114,14 @@
         width: 90%;
         height: 40vw;
         padding: 40px 0;
+        margin-bottom: 10px;
     }
     .msg-txt>h1 {
-        font-size: 30px;
+        font-size: 33px;
     }
 
     .msg-txt>p {
-        font-size: 15px;
+        font-size: 20px;
         color: white;
     }
     .msg-txt .button {
