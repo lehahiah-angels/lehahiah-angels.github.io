@@ -344,7 +344,7 @@ a.to-top {
 
 .service-txt h1 {
     padding: 20px;
-    font-size: 40px;
+    font-size: 50px;
     color: #694d45;
 }
 
@@ -450,7 +450,7 @@ a.to-top {
 .carousel .card .img {
     height:100%;
     width: 100%;
-    border-radius: 50%;
+    clip-path: circle(50% at 50% 50%);    
     overflow: hidden;
     padding-top: 30px;
     object-fit: cover;
@@ -459,7 +459,7 @@ a.to-top {
 .card .img img {
     width: 250px;
     height:250px;
-    border-radius: 50%;
+    clip-path: circle(50% at 50% 50%);    
     object-fit: cover;
     transition: transform .5s;
 }
@@ -544,6 +544,7 @@ a.to-top {
     justify-content: center;
     align-items: center;
     padding-bottom: 40px;
+    font-family: 'Quicksand';
 }
 
 .gal-txt {
@@ -553,91 +554,50 @@ a.to-top {
     justify-content: center;
     align-items: center;
     margin: 10PX 0;
-
 }
 
 .gal-txt h1 {
-    font-size: 40px;
+    font-size: 50px;
     color: #f1dec9;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .ma-galerie {
-    margin: 30px auto;
+    max-width: 1300px;
+    width: 80%;
     height: auto;
-    width: 1650px;
+    margin: 30px auto;
     display: grid;
-    grid-template-columns: repeat(auto-fill, 400px);
-    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, 250px);
     justify-content: center;
-    overflow: hidden;  
+    grid-gap: 10px;
 }
 
-:where(
-.gal-box1,
-.gal-box2,
-.gal-box3,
-.gal-box4,
-.gal-box5,
-.gal-box6,
-.gal-box7,
-.gal-box8 ){
-    height: 330px;
-    width: 400px;
-    overflow: hidden;
+.gal-box{
+   width: 250px;
+   height: 200px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius:15px ;
+   position: relative;
+   overflow: hidden;
 }
-
-
-.gal-box1 {
-    background-position: center;
-    background-size: cover;
-    grid-column: 1/3;
-    width: auto;
-}
-
-.gal-box6 {
-    background-position: center;
-    background-size: cover;
-    grid-column: 3/5;
-    width: auto;
-}
-
-.gal-box1 img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    transition: transform .5s;
-}
-
-.gal-box6 img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    transition: transform .5s;
-}
-
-.gal-box1 img:hover {
+.gal-box img:hover {
     transform: scale(1.1);
 }
-:where(
-.gal-box2 img,
-.gal-box3 img,
-.gal-box4 img,
-.gal-box5 img)
+
+.gal-box img
  {
+    position: absolute;
+    border-radius:15px ;
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    vertical-align: middle;
+    display: inline-block;
     transition: transform .5s;
+    object-fit: cover;
 }
-:where(
-.gal-box2 img:hover,
-.gal-box3 img:hover,
-.gal-box4 img:hover,
-.gal-box5 img:hover,
-.gal-box6 img:hover) {
-    transform: scale(1.1);
-}
+
 
 
 /*
